@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/cari"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+    <group android:menuCategory="container">
+        <item android:id="@+id/dark_mode"
+            android:orderInCategory="100"
+            app:showAsAction="withText"
+            android:title="Mode Malam" />
+
+        <item android:id="@+id/sun_mode"
+            android:orderInCategory="100"
+            app:showAsAction="withText"
+            android:title="Mode Siang" />
+    </group>
+</menu>

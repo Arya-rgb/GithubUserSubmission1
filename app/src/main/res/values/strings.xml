@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Github Users</string>
+    <string name="repo">Repo</string>
+    <string name="title_activity_user_detail">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="Follower">Follower</string>
+    <string name="Following">Following</string>
+    <string name="Repository">Repository</string>
+    <string name="Profil">Profil</string>
+    <string name="cari">Cari</string>
+    <string name="Location">Lokasi</string>
+    <string name="Company">Company</string>
+    <string name="darkmode">darkmode</string>
+</resources>
